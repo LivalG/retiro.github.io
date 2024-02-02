@@ -1,0 +1,90 @@
+body {
+    background-color: #fff89a; /* Amarelo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f8e114; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 9, 9, 0.2);
+}
+
+h1 {
+    color: #070404; /* preto */
+}
+
+.button {
+    background-color: #FFA500; /* Laranja */
+    color: #fce300;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fff09e; /* Amarelo Claro */
+}
+
+header {
+    background-color: #FFD700; /* Amarelo dourado para a barra de navegação */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    background-image: url('banner.jpg'); /* Substitua 'banner.jpg' pela imagem do seu banner */
+    background-size: cover;
+    height: 300px;
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1ec; /* Amarelo dourado para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.feature-card img {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5%;
+    width: 400px;
+}
